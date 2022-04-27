@@ -10,7 +10,7 @@
 </head>
 <body>
     <header class="header">
-		<h1 class="logo"><a href="#">???</a></h1>
+		<h1 class="logo"><a href="#">SoleCollect</a></h1>
       <ul class="main-nav">
           <li><a href="source.html">Home</a></li>
           <li><a href="shoes.html">Skor</a></li>
@@ -18,6 +18,23 @@
           <li><a href="contact.html">Contact</a></li>
       </ul>
 	</header> 
+    <h1>Lämna ett meddelande här så återkommer vi via mail</h1>
+    <form id="form" name="form" method="post" action="">
+
+        <label for="fnamn">Förnamn:</label> <br>
+        <input type="text" name="fnamn" id="fnamn" /> <br>
         
+        <label for="enamn">Efternamn:</label> <br>
+        <input type="text" name="enamn" id="enamn" /> <br>
+        
+        <label for="epost">E-postadress:</label> <br>
+        <input type="text" name="epost" id="epost" /> <br>
+        
+        <label for="meddelande">Meddelande:</label> <br>
+        <textarea name="meddelande" id="meddelande" cols="45" rows="5"></textarea> <br>
+        
+        <input type="submit" name="skicka" id="skicka" value="Skicka meddelandet" />
+        
+        </form>    
 </body>
 </html>

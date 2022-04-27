@@ -1,3 +1,9 @@
+
+
+
+
+
+/*------------SLIDER--------------*/
 *, *::after, *::before {
   box-sizing: border-box;
 }
@@ -65,23 +71,12 @@
 }
 
 .container:hover .left-handle::after {
-  content: \2039;
+  content: \2039; 
 }
 
 .container:hover .right-handle::after {
   content: \203A;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*--------------------BOXAR-----------*/
