@@ -1,3 +1,4 @@
+/*
 document.addEventListener("click", e => {
     let handle
     if (e.target.matches(".handle")) {
@@ -10,15 +11,18 @@ document.addEventListener("click", e => {
 
 
 function onHandleClick(handle) {
+    console.log(handle)
     const slider = handle.closest(".container").querySelector(".slider")
     const sliderIndex = parseInt(slider.style.getPropertyValue("--slider"))
-    if (handle.classlist.contains("left-handle")) {
+    console.log(slider,sliderIndex, window.getComputedStyle(slider).getPropertyValue("--slider"))
+
+    if (handle.classList.contains("left-handle")) {
         slider.style.setProperty("--slider-index", sliderIndex - 1)
     }
 
 
-    if (handle.classlist.contains("right-handle")) {
+    if (handle.classList.contains("right-handle")) {
         slider.style.setProperty("--slider-index", sliderIndex + 1)
     }
     console.log("klickade")
-}
+} /*
