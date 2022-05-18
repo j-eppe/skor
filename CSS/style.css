@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 
 
@@ -22,7 +22,6 @@
   display: flex;
   flex-grow: 1;
   margin: 0 .25rem;
-  transform: translateX(calc(var(--slider-index) * -100%));
   overflow-x: scroll;
 }
 
@@ -66,9 +65,6 @@
 }
 
 
-.handle:hover {
-  font-size: 6rem;
-}
 
 .container:hover .left-handle::after {
   content: \2039; 
@@ -106,9 +102,18 @@ ul {
 }
 
 h2,
-h3,
 a {
   color: #34495e;
+
+}
+
+h3 {
+  color: black;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  font-size: 50px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 a {
@@ -152,6 +157,10 @@ a {
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
+
+/* Footer */
+
+
 
 /* ================================= 
   Media Queries
