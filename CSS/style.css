@@ -159,7 +159,11 @@ a {
 }
 
 /* Footer */
-
+footer {
+  text-align: center;
+  height: 100px;
+  background-image: linear-gradient(white, grey);
+}
 
 
 /* ================================= 

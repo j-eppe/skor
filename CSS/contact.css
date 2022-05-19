@@ -101,6 +101,13 @@ body {
     border-radius: 5px;
   }
   
+/* Footer */
+footer {
+  text-align: center;
+  height: 100px;
+}
+
+
   /* ================================= 
     Media Queries
   ==================================== */
