@@ -192,3 +192,11 @@ footer {
     justify-content: space-between;
   }
 }
+
+@media (max-width: 768px){
+  .img{
+    flex-direction: row;
+    height: 80px;
+    width: 80px;
+  }
+}

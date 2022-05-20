@@ -123,3 +123,20 @@ footer {
     justify-content: space-between;
   }
 }
+
+@media (max-width: 768px){
+  div {
+    margin-left: 60px;
+    width: 100px;
+    height: 100px;
+    background-color: #0cb1c4;
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* transform: rotate(3deg); */
+    /* transform: rotate(0.3rad);/ */
+    /* transform: rotate(3grad); */
+    /* transform: rotate(.03turn);  */
+  }
+}

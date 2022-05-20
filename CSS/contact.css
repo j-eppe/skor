@@ -134,3 +134,11 @@ footer {
       justify-content: space-between;
     }
   }
+
+  @media(max-width: 768px){
+    iframe{
+      height: 10%;
+      width: 30%;
+      left: 230px;
+    }
+  }
